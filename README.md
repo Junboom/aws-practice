@@ -82,7 +82,51 @@
 
 ## 13. RDS - Relational Database Service
 
-> 13-1. 작업, 패치 관리, 복제 등 시간 소모적인 데이터베이스의 작업을 처리>
+> 13-1. 작업, 패치 관리, 복제 등 시간 소모적인 데이터베이스의 작업을 처리
+>
 > 13-2. root 계정은 사용할 수 없고, 권한을 부여받아 사용할 수 있다.
+
+
+## 14. 요약
+
+> 14-1. 이중화 구성을 하여 장애 발생 시 Single point를 무시할 수 있어야 한다.
+>
+> 14-2. Direct connect - LG U+
+>
+> 14-3. Security Group, NACL - 보안
+>
+> 14-4. S3, Shield, IAM 등은 VPC 외부에 존재함.
+>
+> 14-5. Inspector - EC2 OS의 취약점을 보완해줌.
+>
+> 14-6. Certification Manager - SSL/TLS 인증서
+>
+> 14-7. Macie - 민감한 데이터 검색 및 분류
+>
+> 14-8. AWS - 리소스 구성 측정, 감사, 평가
+
+
+## 15. 스토리지 옵션
+
+> 15-1. EBS, S3, RDS, DynamoDB ...
+>
+> 15-2. S3 - Object Storage
+>
+> 15-3. S3 대신 Cloud Front를 이용하면 빠를 수 있다.
+>
+> 15-4. 세밀한 쿼리 - RDS / 반대 - DynamoDB(NoSQL)
+>
+> 15-5. AutoScaling을 사용해서 최대한 자원의 손실을 방지한다.
+>
+> 15-6. 탄력적인 운영
+
+
+## 16. Loose-coupling
+
+> 16-1. 안정적인 처리
+>
+> 16-2. 하나만 오류가 발생해도 실행되지 않음
+>
+> 16-3. <-> Tight-coupling 오류가 발생해도 빠르게 실행됨
 
 
