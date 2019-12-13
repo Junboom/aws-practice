@@ -48,3 +48,10 @@ aws ec2 describe-vpcs --region $USER --output text;
 echo "=========="; ₩
 
 done
+
+
+## 7. ip 주소 확인하기
+
+nslookup ELB.com
+
+
