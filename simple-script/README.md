@@ -55,3 +55,12 @@ done
 nslookup ELB.com
 
 
+## 8. aws 활용하기
+
+> 8-1. aws iam list-users --query Users[].UserName
+>
+> 8-2. aws ec2 descrive-instances --query "Reservations[].Instances[].[InstanceId, State.Name, Tags[?Key=='Name'] | [0].Value]"
+> output 설정: --output json/text/table
+
+
+
